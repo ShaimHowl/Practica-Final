@@ -1,5 +1,5 @@
 # Practica-Final
-html lang="en">
+<html lang="en">
 
 
 <head>
@@ -54,3 +54,24 @@ html lang="en">
 
 
 </html>
+body{
+
+
+    background-color:rgb(124, 235, 109)
+
+
+}
+div{
+    
+        margin-top:20px;
+        height:150px;
+        width:300px;
+        border:2px solid black;
+        background-color: lightgray;
+       
+   
+}
+hr{
+    background-color: white;
+}
+
