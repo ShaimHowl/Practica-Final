@@ -56,6 +56,7 @@ background-color: lightgrey;
 
 .brawl button{
   font-size: 27px;
+  border: 2px solid black;
   
 
 }
@@ -64,6 +65,7 @@ background-color: lightgrey;
 }
 .fortnite button{
   font-size: 27px;
+  border: 2px solid black;
 }
 .fortnite p{
   font-size: 20px;
@@ -84,7 +86,7 @@ background-color: lightgrey;
 
 }
 .clash button{
- 
+ border: 2px solid black;
   font-size: 27px;
 }
 .clash button:hover{
@@ -123,7 +125,7 @@ body{
 }
 .fifa button{
   font-size: 27px;
-
+  border: 2px solid black;
 }
 .fifa button:hover{
   color: blue;
