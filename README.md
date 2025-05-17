@@ -1,77 +1,80 @@
-# Practica-Final
+# HTML
 <html lang="en">
-
-
 <head>
-
-
-<link rel="stylesheet" href="style.css">
-
-
-    <title>Document</title>
-
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
-
 <body>
-
-<center>
-  <H1>¿Como esta el futbol actualmente?</H1>
-</center>
-    
-
-
-        <br>
-<center>
-  <div>
-    <center>
-      <p>Hoy hablaremos sobre como va el futbol, hablaremos de todo.</p>
-  
-  
-          <p>Sobre las polemicas, el arbitraje, las ligas y la Champions League</p>
-    </center>
-   
+  <header>
+    <h1>Los mejores juegos de 2025</h1>
+  </header>
+  <div class="brawl">
+    <h2>Brawl Stars</h2>
+    <p>Este juego estuvo en su prime en 2024</p>
   </div>
-</center>
-
-       <br>
-<center>
-  <img src="arbi.jpeg" alt="arbitro">
-</center>
-
-
-<hr size="30" />
-<center>
-  <p>Los principales culpables son</p>
-  <br>
-  
-  
- 
-</center>
-
+  <div class="fortnite">
+ <h2>Fortnite</h2>
+  <p>Juego en decadencia</p>
+</div>
+<div class="clash">
+<h2>Clahs Royale</h2>
+<p>El juego va resurgiendo</p>
+</div>
+<div class="seccion">
+  Imagen
+</div>
 </body>
-
-
 </html>
+
+# CSS
+header h1{
+font-size: 50px;
+text-align: center;
+border: 3px solid black;
+padding: 10px;
+background-color: lightgrey;
+}
+.brawl p{
+  font-size: 20px;
+}
+
+.brawl{
+  border: 3px solid black;
+  width: 300px;
+  text-align: center;
+  margin: 10px;
+  background-color: lightyellow;
+  
+}
+.fortnite p{
+  font-size: 20px;
+}
+.fortnite {
+  border: 3px solid black;
+  width: 220px;
+  background-color: #ccffcc;
+  position:absolute;
+  right: 780px;
+  top: 127px;
+  padding: 12px;
+  text-align: center;
+}
+.clash p{
+  font-size: 20px;
+  text-align: center;
+}
+.clash {
+  border: 3px solid black;
+  position: absolute;
+  right: 545px;
+  top: 126px;
+  padding: 12px;
+  text-align: center;
+  width: 200px;
+  background-color: lightblue;
+}
 body{
-
-
-    background-color:rgb(124, 235, 109)
-
-
+  background-image: url(gaming.jpeg);
 }
-div{
-    
-        margin-top:20px;
-        height:150px;
-        width:300px;
-        border:2px solid black;
-        background-color: lightgray;
-       
-   
-}
-hr{
-    background-color: white;
-}
-
